@@ -35,7 +35,7 @@ open source software files and related documentation files
 for component products used in computer systems and other 
 applications. OSS-EC is provided to those who accept the 
 OSS-EC Terms of Use for the OSS-EC site; see 
-https://www.ossec.com/license_agreement/ 
+https://oss-ec.com/license_agreement/
 for the OSS-EC Terms of Use.By downloading the OSS-EC from 
 the OSS-EC site or obtaining the OSS-EC by any means, you 
 accept the Terms of Use. Please read and accept the Terms 
