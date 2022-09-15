@@ -23,4 +23,4 @@
 
 extern const tbl_adc_t tbl_MPXA4250A;
 
-#endif __MPXA4250A_H__
+#endif /*__MPXA4250A_H__*/
