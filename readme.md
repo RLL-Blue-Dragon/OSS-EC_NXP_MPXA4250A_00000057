@@ -1,12 +1,11 @@
 # OSS-EC NXP MPXA4250A 00000057
 
 We provide a library of NXP's MPXA4250A pressure sensor.
-We also provide OSS for many other components from the OSS-EC site.
-< img src=([https://oss-ec.com/wp-content/uploads/2022/06/3win.png]) >
+We also provide OSS for many other components from the [OSS-EC site](https://oss-ec.com/).
 
-## Provide URL OSS-EC site ([https://oss-ec.com/])
+# [Datasheet](https://www.nxp.com/docs/en/data-sheet/MPX4250A.pdf)
 
-#Datasheet ([https://www.nxp.com/docs/en/data-sheet/MPX4250A.pdf])
+# [component software specifications](https://oss-ec.com/wp-content/uploads/2022/09/Spec-MPXA4250A.pdf)
 
 # BSL-00000057 Features
 - Component type         ADC component
@@ -16,6 +15,7 @@ We also provide OSS for many other components from the OSS-EC site.
 - Conversion type        Linear
 - Moving average filter  Moving average filter select ( Non,SMA,EMA,WMA )
 - Diagnosis              Range (Min to Max)
+## [OSS-EC BSL00000057 specifications](https://oss-ec.com/wp-content/uploads/2022/09/Spec-00000057.pdf)
 
 # Usage
 Please refer to sample.ino.
@@ -38,7 +38,7 @@ open source software files and related documentation files
 for component products used in computer systems and other 
 applications. OSS-EC is provided to those who accept the 
 OSS-EC Terms of Use for the OSS-EC site; see 
-https://oss-ec.com/license_agreement/
+[License](https://oss-ec.com/license_agreement/)
 for the OSS-EC Terms of Use.By downloading the OSS-EC from 
 the OSS-EC site or obtaining the OSS-EC by any means, you 
 accept the Terms of Use. Please read and accept the Terms 
