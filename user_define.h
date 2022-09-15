@@ -9,7 +9,7 @@
 #define __USER_DEFINE_H__
 
 #include "Arduino.h"
-#include "oss_ec.h"
+#include "oss_ec_00000057.h"
 
 #define iADC_bit                10U                             // MPU ADC bit
 #define iADC_vdd                5.0F                            // MPU Vdd Configures the reference voltage [V]
@@ -30,4 +30,4 @@
 
 #define iMPXA4250A_ma           iMA                             // Moving average select
 
-#endif __USER_DEFINE_H__
+#endif /*__USER_DEFINE_H__*/
