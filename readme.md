@@ -1,11 +1,14 @@
-# NXP_MPXA4250_BSL00000057
+# OSS-EC NXP MPXA4250A 00000057
 
-# DEMO
 We provide a library of NXP's MPXA4250A pressure sensor.
-We also provide OSS for many other components from the OSS-EC site (https://oss-ec.com/).
-< img src="https://oss-ec.com/wp-content/uploads/2022/06/3win.png"
+We also provide OSS for many other components from the OSS-EC site.
+< img src=([https://oss-ec.com/wp-content/uploads/2022/06/3win.png]) >
 
-# Features
+## Provide URL OSS-EC site ([https://oss-ec.com/])
+
+#Datasheet ([https://www.nxp.com/docs/en/data-sheet/MPX4250A.pdf])
+
+# BSL-00000057 Features
 - Component type         ADC component
 - Number of Components   Single
 - Supported OS (HAL)     Arduino
@@ -15,7 +18,7 @@ We also provide OSS for many other components from the OSS-EC site (https://oss-
 - Diagnosis              Range (Min to Max)
 
 # Usage
-Please refer to Sample.cpp.
+Please refer to sample.ino.
 
 # Note
 
