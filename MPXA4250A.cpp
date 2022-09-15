@@ -3,6 +3,7 @@
 /*-- File Header Comment Start -----------------------------------------------*/
 // File Name        : MPXA4250A.cpp
 // Reason for change: 01.00.00 : 31/08/'22 : New Release
+//                    01.00.01 : 12/09/2022: Fix dummy address cast
 // Nickname         : Blue Dragon
 /*-- File Header Comment End -------------------------------------------------*/
 
@@ -56,20 +57,20 @@ const tbl_adc_t tbl_MPXA4250A =
         
 #if     iMPXA4250A_ma == iSMA                           // Simple moving average filter
         &MPXA4250A_Phy_SMA      ,
-        iDummy_adr              ,
-        iDummy_adr
+        (ema_f32_t*)iDummy_adr  ,                       // 01.00.01
+        (wma_f32_t*)iDummy_adr                          // 01.00.01
 #elif   iMPXA4250A_ma == iEMA                           // Exponential moving average filter
-        iDummy_adr              ,
+        (sma_f32_t*)iDummy_adr  ,                       // 01.00.01
         &MPXA4250A_Phy_EMA      ,
-        iDummy_adr
+        (wma_f32_t*)iDummy_adr                          // 01.00.01
 #elif   iMPXA4250A_ma == iWMA                           // Weighted moving average filter
-        iDummy_adr              ,
-        iDummy_adr              ,
+        (sma_f32_t*)iDummy_adr  ,                       // 01.00.01
+        (ema_f32_t*)iDummy_adr  ,                       // 01.00.01
         &MPXA4250A_Phy_WMA
 #else                                                   // Non-moving average filter
-        iDummy_adr              ,
-        iDummy_adr              ,
-        iDummy_adr
+        (sma_f32_t*)iDummy_adr  ,                       // 01.00.01
+        (ema_f32_t*)iDummy_adr  ,                       // 01.00.01
+        (wma_f32_t*)iDummy_adr                          // 01.00.01
 #endif
 
 };
