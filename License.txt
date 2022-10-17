@@ -10,7 +10,4 @@ for the OSS-EC Terms of Use.By downloading the OSS-EC from
 the OSS-EC site or obtaining the OSS-EC by any means, you 
 accept the Terms of Use. Please read and accept the Terms 
 of Use before using the OSS-EC. If you do not agree to the 
-Terms of Use, please do not use the OSS-EC. We reserve the 
-right to change these Terms of Use at any time and for any 
-reason. We strongly recommend that you review the Terms of 
-Use periodically.
+Terms of Use, please do not use the OSS-EC.
