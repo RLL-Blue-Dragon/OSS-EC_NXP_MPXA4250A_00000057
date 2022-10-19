@@ -5,7 +5,7 @@ We also provide OSS for many other components from the [OSS-EC site](https://oss
 
 # [Datasheet](https://www.nxp.com/docs/en/data-sheet/MPX4250A.pdf)
 
-# [component software specifications](https://oss-ec.com/wp-content/uploads/2022/09/Spec-MPXA4250A.pdf)
+# [component software specifications](https://oss-ec.com/wp-content/uploads/2022/10/Spec-MPXA4250A.pdf)
 
 # BSL-00000057 Features
 - Component type         ADC component
