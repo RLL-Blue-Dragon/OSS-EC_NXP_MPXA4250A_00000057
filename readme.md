@@ -15,7 +15,7 @@ We also provide OSS for many other components from the [OSS-EC site](https://oss
 - Conversion type        Linear
 - Moving average filter  Moving average filter select ( Non,SMA,EMA,WMA )
 - Diagnosis              Range (Min to Max)
-## [OSS-EC BSL00000057 specifications](https://oss-ec.com/wp-content/uploads/2022/09/Spec-00000057.pdf)
+## [OSS-EC BSL00000057 specifications](https://oss-ec.com/wp-content/uploads/2022/10/Spec-00000057.pdf)
 
 # Usage
 Please refer to sample.ino.
